@@ -1,7 +1,9 @@
 # Module OpenConcerto d'impression d'étiquettes sur imprimante USB Brother QL
 
-Ce projet est un plugin pour l'ERP OpenConcerto permet l'impression d'étiquettes d'articles sur les imprimantes USB Brother QL.
-Son but est de pouvoir exploiter toutes les capacités de ces imprimantes, en particulier de pouvoir imprimer des étiquettes
+Ce projet est un plugin pour l'ERP OpenConcerto permettant l'impression d'étiquettes d'articles sur les imprimantes USB Brother QL,
+sans nécessiter de driver.
+
+Son objectif est de pouvoir exploiter toutes les capacités de ces imprimantes, en particulier de pouvoir imprimer des étiquettes
 de tailles variables sur les rouleaux continus.
 
 Le module a été développé en Java, et en premier à destination d'un système d'exploitation Gnu/Linux, mais peut fonctionner sur d'autres systèmes.
@@ -20,7 +22,7 @@ Développeur : Cédric de Launois
 
 # Imprimantes supportées
 
-Le code a été testé avec une imprimante Brother QL-700, mais il devrait fonctionner avec les imprimantes suivantes :
+Le code a été testé sous Linux avec une imprimante Brother QL-700, mais il devrait fonctionner avec les imprimantes suivantes :
 
 - Brother QL-500
 - Brother QL-550
