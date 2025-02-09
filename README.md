@@ -14,7 +14,10 @@ Il se base sur les librairies :
 Le module est sous license GNU General Public License v3.0.
 
 Développeur : Cédric de Launois
-                  
+                           
+![Screenshot](openconcerto-label-brotherql-screenshot.png)
+
+
 # Imprimantes supportées
 
 Le code a été testé avec une imprimante Brother QL-700, mais il devrait fonctionner avec les imprimantes suivantes :
