@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<graphicspl width="306" height="991" dpi="300" printratio="0.5">
+	<rectangle fill="false" x="0" y="0" width="306" height="991" />
+
+	<text x="260" y="0" fontsize="30" font="Verdana" align="left" wrap="true" maxwidth="980" rotate="90">${product.name}</text>
+	
+	<barcode x="120" y="80" type="gs1" height="80" modulewidth="4" fontsize="25" rotate="90">${product.ean13}</barcode>
+
+</graphicspl>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<graphicspl width="696" height="271" dpi="300" printratio="0.5">
+	<rectangle fill="false" x="0" y="0" width="695" height="270" />
+
+	<!-- x et y donnent la position du coin supérieur gauche du texte dans le cas d'un alignement à gauche -->
+	<text x="10" y="20" fontsize="40" font="Verdana" align="left"
+		wrap="true" maxwidth="600">Libellé de l'article</text>
+
+	<!-- x et y donnent la position du centre dans le cas d'un alignement centré -->
+	<text x="348" y="80" fontsize="40" font="Verdana" align="center" 
+	    color="#000">56.00 € HT</text>
+
+	<text x="348" y="120" fontsize="10" font="Verdana" align="center"
+		color="#000000">ARTICLE EN PROMOTION - NON ECHANGEABLE</text>
+	
+	<!-- x et y donnent la position du coin supérieur gauche du code barre -->
+	<barcode x="25" y="145" type="gs1" height="80" modulewidth="6"
+		fontsize="25">1234567890</barcode>
+
+</graphicspl>
