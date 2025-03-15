@@ -9,7 +9,7 @@ de tailles variables sur les rouleaux continus.
 Le module a été développé en Java, et en premier à destination d'un système d'exploitation Gnu/Linux, mais peut fonctionner sur d'autres systèmes.
 
 Il se base sur les librairies :
-- [libusb](https://libusb.info/) pour l'interfaçage natif avec les périphériques USB
+- [brotherql](https://github.com/vxel/brotherql) pour l'interfaçage avec les imprimantes USB Brother
 - [usb4java](http://usb4java.org/) pour l'intégration de libusb avec Java
 - [OkapiBarcode](https://github.com/woo-j/OkapiBarcode) pour la génération de codes barres
 
@@ -37,7 +37,7 @@ Le code a été testé sous Linux avec une imprimante Brother QL-700, mais il de
         
 # Téléchargement
 
-- [org.delaunois.openconcerto.label.brotherql-1.0.jar](dist/org.delaunois.openconcerto.label.brotherql-1.0.jar)
+- [org.delaunois.openconcerto.label.brotherql-1.1.jar](dist/org.delaunois.openconcerto.label.brotherql-1.1.jar)
 
 # Installation
 

@@ -32,6 +32,7 @@ import org.openconcerto.sql.view.list.RowAction.PredicateRowAction;
 import org.openconcerto.utils.ExceptionHandler;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -48,6 +49,7 @@ import java.util.logging.Logger;
  *
  * @author Cédric de Launois
  */
+@SuppressWarnings("unused")
 public final class Module extends AbstractModule {
 
     private static final Logger LOGGER = Logger.getLogger(Module.class.getName());
@@ -134,8 +136,10 @@ public final class Module extends AbstractModule {
 
                     final GPLPrinterPanel p = new GPLPrinterPanel();
                     final JFrame f = new JFrame();
-                    p.initUI(values);
+                    p.uiInit(values);
                     f.setTitle(actionName);
+                    f.setMinimumSize(new Dimension(1000, 480));
+                    f.setPreferredSize(new Dimension(1000, 650));
                     f.setLocationRelativeTo(null);
                     f.setContentPane(p);
                     f.pack();

@@ -18,8 +18,12 @@
  */
 package org.delaunois.openconcerto.label.brotherql;
 
+import org.delaunois.openconcerto.label.brotherql.graphicspl.GraphicsPL;
 import org.openconcerto.utils.FileUtils;
+import org.w3c.dom.Element;
+import org.xml.sax.SAXException;
 
+import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -44,6 +48,7 @@ import java.util.logging.Logger;
  *
  * @author Cedric de Launois
  */
+@SuppressWarnings({"unused", "SameParameterValue"})
 public class TemplateManager {
 
     private static final Logger LOGGER = Logger.getLogger(TemplateManager.class.getName());
@@ -88,6 +93,23 @@ public class TemplateManager {
         return get(template[0]);
     }
 
+    public List<Template> getAll() {
+        List<Template> templates = new ArrayList<>();
+        browseTemplates(f -> {
+            GraphicsPL g = new GraphicsPL();
+            try {
+                g.load(f);
+                final Element root = g.getDocument().getDocumentElement();
+                final int width = Integer.parseInt(root.getAttribute("width"));
+                final int height = Integer.parseInt(root.getAttribute("height"));
+                templates.add(new Template(getName(f), get(f), g, width, height));
+            } catch (ParserConfigurationException | SAXException | IOException e) {
+                // Ignore
+            }
+            return true;
+        });
+        return templates;
+    }
     /**
      * Read the graphicspl template content from the given file.
      *

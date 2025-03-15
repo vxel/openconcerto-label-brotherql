@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.openconcerto.modules.label</groupId>
-    <artifactId>brotherql</artifactId>
-    <version>1.0</version>
+    <artifactId>openconcerto-label-brotherql</artifactId>
+    <version>1.1</version>
 
     <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -54,9 +54,9 @@
     </build>
     <dependencies>
         <dependency>
-            <groupId>org.usb4java</groupId>
-            <artifactId>usb4java</artifactId>
-            <version>1.3.0</version>
+            <groupId>org.delaunois</groupId>
+            <artifactId>brotherql</artifactId>
+            <version>1.2.0</version>
         </dependency>
         <dependency>
             <groupId>uk.org.okapibarcode</groupId>
