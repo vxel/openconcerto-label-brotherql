@@ -37,7 +37,7 @@ Le code a été testé sous Linux avec une imprimante Brother QL-700, mais il de
         
 # Téléchargement
 
-- [org.delaunois.openconcerto.label.brotherql-1.1.jar](dist/org.delaunois.openconcerto.label.brotherql-1.1.jar)
+- [org.delaunois.openconcerto.label.brotherql-1.1.jar](https://raw.githubusercontent.com/vxel/openconcerto-label-brotherql/refs/heads/main/dist/org.delaunois.openconcerto.label.brotherql-1.1.jar)
 
 # Installation
 
