@@ -23,21 +23,11 @@ Développeur : Cédric de Launois
 # Imprimantes supportées
 
 Le code a été testé sous Linux avec une imprimante Brother QL-700, mais il devrait fonctionner avec les imprimantes suivantes :
-
-- Brother QL-500
-- Brother QL-550
-- Brother QL-560
-- Brother QL-570
-- Brother QL-580N
-- Brother QL-650TD
-- Brother QL-700
-- Brother QL-700M
-- Brother QL-1050
-- Brother QL-1060N
+QL-500, QL-550, QL-560, QL-570, QL-580N, QL-600, QL-650TD, QL-700, QL-700M, QL-710W, QL-720NW, QL-800, QL-810W, QL-820NWB, QL-1050, QL-1060N, QL-1100, QL-1110NWB, QL-1115NWB
         
 # Téléchargement
 
-- [org.delaunois.openconcerto.label.brotherql-1.1.jar](https://raw.githubusercontent.com/vxel/openconcerto-label-brotherql/refs/heads/main/dist/org.delaunois.openconcerto.label.brotherql-1.1.jar)
+- [org.delaunois.openconcerto.label.brotherql-1.2.jar](https://raw.githubusercontent.com/vxel/openconcerto-label-brotherql/refs/heads/main/dist/org.delaunois.openconcerto.label.brotherql-1.2.jar)
 
 # Installation
 
